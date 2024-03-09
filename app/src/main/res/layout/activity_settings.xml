@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_size"
+
+            />
+
+    </FrameLayout>
+
+    <Button
+        app:icon="@drawable/icon_search"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/icon_padding"
+        app:iconTint="@color/black"
+        app:cornerRadius="@dimen/corner_radius"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:backgroundTint="@color/white"
+        android:text="@string/search"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size"
+        android:inputType="textCapWords"
+        />
+
+    <Button
+        app:icon="@drawable/icon_media"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/icon_padding"
+        app:iconTint="@color/black"
+        app:cornerRadius="@dimen/corner_radius"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:backgroundTint="@color/white"
+        android:text="@string/media"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size"
+        android:inputType="textCapWords"
+        />
+
+    <Button
+        app:icon="@drawable/icon_settings"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/icon_padding"
+        app:iconTint="@color/black"
+        app:cornerRadius="@dimen/corner_radius"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:backgroundTint="@color/white"
+        android:text="@string/settings"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size"
+        android:inputType="textCapWords"
+        />
+
+
+</LinearLayout>
