@@ -27,7 +27,7 @@
     <Button
         app:icon="@drawable/icon_search"
         app:iconGravity="textStart"
-        app:iconPadding="10dp"
+        app:iconPadding="@dimen/icon_padding"
         app:iconTint="@color/black"
         app:cornerRadius="@dimen/corner_radius"
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
     <Button
         app:icon="@drawable/icon_media"
         app:iconGravity="textStart"
-        app:iconPadding="10dp"
+        app:iconPadding="@dimen/icon_padding"
         app:iconTint="@color/black"
         app:cornerRadius="@dimen/corner_radius"
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@
     <Button
         app:icon="@drawable/icon_settings"
         app:iconGravity="textStart"
-        app:iconPadding="10dp"
+        app:iconPadding="@dimen/icon_padding"
         app:iconTint="@color/black"
         app:cornerRadius="@dimen/corner_radius"
         android:layout_width="match_parent"
